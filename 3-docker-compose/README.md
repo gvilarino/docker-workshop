@@ -79,10 +79,9 @@ In order for your flow to be quick, you need to be able to re-create the service
 
 ```
 volumes:
-  - ${PWD}:/usr/src
+  - ./:/usr/src
   - /usr/src/node_modules
 ```
-_note that the `${PWD}` instruction may have weird effects if running Windows_
 
 That's how you mount the source files into the container. We spefically exclude the `node_modules` path because we don't want to ever overwrite them even if theres a `node_modules` directory in the host machine.
 
