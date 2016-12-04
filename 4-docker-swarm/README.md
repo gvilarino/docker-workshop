@@ -16,7 +16,7 @@ Pick your poison and choose one of the following:
 
 Browse to [`play-with-docker`](http://play-with-docker.com/) and create three nodes with the "+ ADD NEW INSTANCE" button.
 
-Skip to the next section.
+Skip to the [next section](https://github.com/gvilarino/docker-workshop/tree/master/4-docker-swarm#get-swarmin).
 
 #### Local swarm
 
