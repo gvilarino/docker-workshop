@@ -1,10 +1,12 @@
 # Docker workshop
 
-A simple `docker` workshop for beginners, that attempts to drive you through the fundamentals and into some advanced topics like `docker-compose` or `docker swarm mode`.
+A simple `docker` workshop for anyone who want's to learn how to use docker effectively in their day-to-day dev work.
 
-This is, of course, a continuous work in progress; feel free to propose changes.
+This repo attempts to drive you through the fundamentals and into some advanced topics like `docker-compose` or docker's swarm mode.
 
-If you want to follow this, go ahead to the `0-docker-basics` dir.
+This is, of course, a continuous work in progress; feel free to propose changes and spread the word.
+
+Get started in the [`0-docker-basics`](https://github.com/gvilarino/docker-workshop/tree/master/0-docker-basics) section.
 
 🐳
 

@@ -93,5 +93,4 @@ Now check `localhost:3000` one more time.
 
 😎🐳
 
-Ok, now you're ready to learn how to work with images.
-
+Ok, now you're ready to [learn how to work with images](https://github.com/gvilarino/docker-workshop/tree/master/2-building-images).

@@ -88,4 +88,4 @@ That's how you mount the source files into the container. We spefically exclude 
 
 Now change something in `index.js` and `docker-compose up -d`. You'll notice how the service container gets recreated with the new source without having to re-build the underlying image.
 
-Now let's get serious, and unleash the swarm.
+Now let's get serious, and [unleash the swarm](https://github.com/gvilarino/docker-workshop/tree/master/4-docker-swarm).

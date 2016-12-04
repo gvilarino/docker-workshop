@@ -38,7 +38,4 @@ Now rebuild (it will rebuild all the first time), then change the text again in 
 
 Faster, right? 😎
 
-You may publish this image by using the command `docker push`, but you'll need an account in [`hub.docker.com`](https://hub.docker.com). But you can do that later. Now let's focus on `docker-compose`
-
-
-
+You may publish this image by using the command `docker push`, but you'll need an account in [`hub.docker.com`](https://hub.docker.com); you can do that later on your own. For now, let's [learn how to `docker-compose`](https://github.com/gvilarino/docker-workshop/tree/master/3-docker-compose)

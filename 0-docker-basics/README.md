@@ -74,4 +74,4 @@ docker pull mongo
 
 Cool so now we have an image we didn't create a container from.
 
-That's a wrap for the basics. Let's move on to the next stage.
+That's a wrap for the basics. Let's [move on to the next section](https://github.com/gvilarino/docker-workshop/tree/master/1-running-containers).
