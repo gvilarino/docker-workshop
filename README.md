@@ -10,6 +10,12 @@ Get started in the [`0-docker-basics`](https://github.com/gvilarino/docker-works
 
 🐳
 
+# Requirements
+
+You may follow this repo entirely online with [`play-with-docker`](http://play-with-docker.com). Do note that sessions there aren't permanent and your progress will get erased after some hours.
+
+If you want to follow this repo locally, you'll need to have `docker` installed. Go ahead and [get it here](https://docs.docker.com/engine/installation/)
+
 # License
 
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)
