@@ -12,9 +12,9 @@ Get started in the [`0-docker-basics`](https://github.com/gvilarino/docker-works
 
 # Requirements
 
-You may follow this repo entirely online with [`play-with-docker`](http://play-with-docker.com). Do note that sessions there aren't permanent and your progress will get erased after some hours.
+You'll need to have `docker` installed. Go ahead and [get it here](https://docs.docker.com/engine/installation/)
 
-If you want to follow this repo locally, you'll need to have `docker` installed. Go ahead and [get it here](https://docs.docker.com/engine/installation/)
+You may follow this repo almost entirely online with [`play-with-docker`](http://play-with-docker.com). You may have some trouble doing some of the stuff ahead since you can't browse `localhost` there, but you can always use `curl` and work around it. Also, note that sessions there aren't permanent and your progress will get erased after some hours.
 
 # License
 
