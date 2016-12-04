@@ -1,6 +1,6 @@
 # Containers
 
-## Runing, detaching and attaching to containers
+## Running, detaching and attaching to containers
 
 Let's run a mongo database! And with a cute name.
 
@@ -20,7 +20,7 @@ Now let's run a new mongo container, but in the background with the `-d` flag (`
 docker run --name db -d mongo
 ```
 
-Cool! Now let's check out the mongo database. First you need to "ssh" into the container. You don't actually use `ssh`, instead you can _execute_ a command with the interactive mode, like so:
+Cool! Now let's check out the mongo database. First you need to sort-of-`ssh` into the container. You don't actually use `ssh`, instead you can _execute_ a command with the interactive mode, like so:
 
 ```
 docker exec -it db mongo
