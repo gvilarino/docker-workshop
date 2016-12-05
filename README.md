@@ -14,7 +14,7 @@ Get started in the [`0-docker-basics`](https://github.com/gvilarino/docker-works
 
 You'll need to have `docker 1.12` installed. Go ahead and [get it here](https://docs.docker.com/engine/installation/)
 
-You may follow this repo almost entirely online with [`play-with-docker`](http://play-with-docker.com). You may have some trouble doing some of the stuff ahead since you can't browse `localhost` there, but you can always use `curl` and work around it. Also, note that sessions there aren't permanent and your progress will get erased after some hours.
+You may follow this repo almost entirely online with [`play-with-docker`](http://play-with-docker.com). ~~You may have some trouble doing some of the stuff ahead since you can't browse `localhost` there, but you can always use `curl` and work around it~~. If you need to access your services from outside, use the following URL pattern http://ip<instance_ip>-<port>.play-with-docker.com (i.e: http://ip10_2_135_3-80.play-with-docker.com/) Also, note that sessions there aren't permanent and your progress will get erased after some hours.
 
 # License
 
