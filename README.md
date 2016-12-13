@@ -1,6 +1,6 @@
 # Docker workshop
 
-A simple `docker` workshop for anyone who want's to learn how to use docker effectively in their day-to-day dev work.
+A simple `docker` workshop for anyone who wants to learn how to use docker effectively in their day-to-day dev work.
 
 This repo attempts to drive you through the fundamentals and into some advanced topics like `docker-compose` or docker's swarm mode.
 
