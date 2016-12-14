@@ -1,8 +1,8 @@
 # Docker swarm
 
-Docker's swarm mode allows you to go all serious about large scale, highly available docker enviromnets. It basically lets you handle a cluster of machines as a single docker daemon, with automatic failover, container scheduling, routing and tons of goodies.
+Docker's swarm mode allows you to go all serious about large scale, highly available docker environments. It basically lets you handle a cluster of machines as a single docker daemon, with automatic failover, container scheduling, routing and tons of other goodies.
 
-This last section will walk you through creating a simple swarm cluster and the basic concepts, but understaing docker swarm in its fullest is *way* beyond the scope of this repo. But let's cut to the chase, shall we.
+This last section will walk you through creating a simple swarm cluster and the basic concepts. Do be noted that understaing docker swarm in its fullest is *way* beyond the scope of this guide. In any case, let's cut to the chase, shall we.
 
 ## Get some nodes
 
@@ -137,7 +137,7 @@ You now have a resilient application running distributedly in a docker swarm clu
 
 These are just the docker basics, you'll learn a lot more by addressing real-life scenarios, so get hackin'
 
-Hopefully this repo will encourage you to [do some more research on your own](https://docs.docker.com) and make docker part of your development or prod pipelines.
+Hopefully this repo will encourage you to [do some more research on your own](https://docs.docker.com) and make docker part of your development toolkit and prod pipelines.
 
 Please feel free to update/fix anything that you see improvable in this repo, and if you liked it spread the word.
 
