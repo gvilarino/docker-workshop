@@ -40,7 +40,7 @@ Browse to `localhost:3000`. You'll see nothing changed... That's because you nee
 docker-compose up -d
 ```
 
-You'll see the `app` service gets re-reated and if you once again browse to `localhost:3000` you'll se the error message
+You'll see the `app` service gets re-created and if you once again browse to `localhost:3000` you'll se the error message.
 
 ## `docker-compose` as a developer's tool
 
@@ -49,7 +49,7 @@ Now let's say you want to use this setup to work, so you'll need a way for tryin
 Remove the `image` property from the `app` service and add this one:
 
 ```
-  build: .
+docker-compose build: .
 ```
 
 This instructs docker-compose where to look for a build context for that service. Now:
@@ -58,7 +58,7 @@ This instructs docker-compose where to look for a build context for that service
 docker-compose build
 ```
 
-You'll see a familiar output. After it's finished, do:
+You'll see some familiar output. After it's finished, do:
 
 ```
 docker images
