@@ -1,6 +1,6 @@
 # Docker compose
 
-While docker allows you to easily build and link different apps with different environments and runtimes, doing so with just more than two or three containers quickly becomes tedious. `docker-compose` allows you to work with complex container systems very easily.
+While docker allows you to easily build and link different apps with different environments and runtimes, doing so with more than just two or three containers quickly becomes tedious. `docker-compose` allows you to work with complex container systems very easily.
 
 For working with `docker-compose`, you will need a `docker-compose.yml` file. Check out the one under the `gvilarino/docker-testing` repo.
 
