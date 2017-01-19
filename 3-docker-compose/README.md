@@ -83,7 +83,7 @@ volumes:
   - /usr/src/node_modules
 ```
 
-That's how you mount the source files into the container. We spefically exclude the `node_modules` path because we don't want to ever overwrite them even if theres a `node_modules` directory in the host machine.
+That's how you mount the source files into the container. We specifically exclude the `node_modules` path because we don't want to ever overwrite them even if theres a `node_modules` directory in the host machine.
 
 Now change something in `index.js` and `docker-compose up -d`. You'll notice how the service container gets recreated with the new source without having to re-build the underlying image.
 
