@@ -49,7 +49,7 @@ Now let's say you want to use this setup to work, so you'll need a way for tryin
 Remove the `image` property from the `app` service and add this one:
 
 ```
-docker-compose build: .
+build: .
 ```
 
 This instructs docker-compose where to look for a build context for that service. Now:
