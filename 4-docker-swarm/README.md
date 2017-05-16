@@ -2,7 +2,7 @@
 
 Docker's swarm mode allows you to go all serious about large scale, highly available docker environments. It basically lets you handle a cluster of machines as a single docker daemon, with automatic failover, container scheduling, routing and tons of other goodies.
 
-This last section will walk you through creating a simple swarm cluster and the basic concepts. Do be noted that understaing docker swarm in its fullest is *way* beyond the scope of this guide. In any case, let's cut to the chase, shall we.
+This last section will walk you through creating a simple swarm cluster and the basic concepts. Do be noted that understanding docker swarm in its fullest is *way* beyond the scope of this guide. In any case, let's cut to the chase, shall we.
 
 ## Get some nodes
 
@@ -71,7 +71,7 @@ Let's get this swarm started. Grab a hold of the manager node host IP. In `play-
 docker swarm init --advertise-addr <manager node's ip>
 ```
 
-This set the node's docker deamon to swarm mode and output the `swarm join` command you'll need for other nodes to join this swarm. Copy it to your clipboard; you'll need it soon.
+This set the node's docker daemon to swarm mode and output the `swarm join` command you'll need for other nodes to join this swarm. Copy it to your clipboard; you'll need it soon.
 
 Verify the swarm status by doing.
 
@@ -131,7 +131,7 @@ Let's kill one of the worker nodes and see how docker re-schedules its container
 
 Now `docker service ps pinger` repeatedly to see how some of the pop up in the other nodes automatically. How cool is that?
 
-You now have a resilient application running distributedly in a docker swarm cluster ✨
+You now have a resilient, distributed application running in a docker swarm cluster ✨
 
 ## Final words
 

@@ -60,7 +60,7 @@ You may also have noticed that the first time you ran `docker run ubuntu:14.04` 
 
 ## Images
 
-_Images_ are the tempalates docker uses to create containers from. If you're familiar with [Object Oriented Programming](https://en.wikipedia.org/wiki/Object-oriented_programming) you may (sort of) think of images as _classes_ and containers as _instances_.
+_Images_ are the templates docker uses to create containers from. If you're familiar with [Object Oriented Programming](https://en.wikipedia.org/wiki/Object-oriented_programming) you may (sort of) think of images as _classes_ and containers as _instances_.
 
 Check which images you have in your local repository by doing:
 
