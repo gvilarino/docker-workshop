@@ -2,7 +2,7 @@
 
 While docker allows you to easily build and link different apps with different environments and runtimes, doing so with more than just two or three containers quickly becomes tedious. `docker-compose` allows you to work with complex container systems very easily.
 
-For working with `docker-compose`, you will need a `docker-compose.yml` file. Check out the one under the `gvilarino/docker-testing` repo.
+For working with `docker-compose` you will need to [install it](https://docs.docker.com/compose/install/) depending on your case and you will need a `docker-compose.yml` file. Check out the one under the `gvilarino/docker-testing` repo.
 
 First make sure you aren't running any containers. The from the project root, do:
 
