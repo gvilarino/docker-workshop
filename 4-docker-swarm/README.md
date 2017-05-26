@@ -8,7 +8,7 @@ This last section will walk you through creating a simple swarm cluster and the 
 
 In order to have a docker swarm going, you'll need a machine cluster, for which you'll need machines. Quickest, coolest way is by using [`play-with-docker`](http://play-with-docker.com/) to try it online. If you'd rather try it locally, you'll need [`docker-machine`](https://docs.docker.com/machine/) and [`Virtualbox`](https://www.virtualbox.org/). If you're running `Docker for mac` or `Docker for windows` you probably already have it installed; `Linux` users should get `docker-machine` separately.
 
-The main difference is how log it'll take you to have the swarm ready. If you're just trying it out, the online route is probably what you want. If you'd like your swarm to be persistent or try some extra stuff you'll want to use the local approach (it may get resource intensive).
+The main difference is how long it'll take you to have the swarm ready. If you're just trying it out, the online route is probably what you want. If you'd like your swarm to be persistent or try some extra stuff you'll want to use the local approach (it may get resource intensive).
 
 Pick your poison and choose one of the following:
 

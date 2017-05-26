@@ -73,7 +73,7 @@ Let's try and get another image
 ```
 docker pull mongo
 ```
-This last command _pulled_ am image named `mongo` from [the public docker repository](https://hub.docker.com) to your local repository. This is very similar to what you achieve with `git pull` from a public `git` repository.
+This last command _pulled_ an image named `mongo` from [the public docker repository](https://hub.docker.com) to your local repository. This is very similar to what you achieve with `git pull` from a public `git` repository.
 
 Cool! So now we have an image we didn't create a container from.
 
