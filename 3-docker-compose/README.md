@@ -84,10 +84,11 @@ This allows us to leverage the layer cache for each re-build and you can `docker
 
 In order for your flow to be quick, you need to be able to re-create the service containers with new contents without re-building the whole image. So instead of re-building the image, you'll re-create the service container if there's a change in the source files. For that you have to _mount_ the local filesystem on top of the containers, like so:
 
+in the `app:` section of the `docker-compose.yml` file add:
 
 ```
 volumes:
-  - ./:/usr/src
+  - .:/usr/src
   - /usr/src/node_modules
 ```
 
