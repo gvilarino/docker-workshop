@@ -4,7 +4,7 @@
 
 A docker image is made of one or more layers. Each layer is built on top of the previous one and they're all immutable. This means you can't modify an existing layer, instead you create a new one made of changes from the previous layer. This is very similar to how `git`'s diff works.
 
-In order to build an image, you will need a `Dockerfile`. Try the one for the web app image you've been using by `git clone`ing the `gvilarino/docker-testing` public github repo.
+In order to build an image, you will need a `Dockerfile`. Try the one for the web app image you've been using by `git clone`ing the [`gvilarino/docker-testing` public github repo](https://github.com/gvilarino/docker-testing).
 
 In that project's root dir, do:
 
