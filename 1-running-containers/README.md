@@ -30,7 +30,7 @@ You may understand this command as: "Hey, `docker`, please `exec`ute  the `mongo
 
 Now you're running the `mongo` command in the `db` container. Toy around and then CTRL+c to quit.
 
-If you now do `docker ps` you'll notice the `db` container is still running. It didn't stop because the main process, the `mongo` database process (with `pid 1`), is still running. The process you killed by quitting was just the mongo shell.
+If you now do `docker ps` you'll notice the `db` container is still running. It didn't stop because the main process, the `mongo` database process (with `pid 1`), is still running. The process you killed by quitting was just the mongo shell you ran when doing `docker exec`.
 
 Now let's connect to it from _another_ container.
 
