@@ -26,6 +26,8 @@ Cool! Now let's check out the mongo database. First you need to sort-of-`ssh` in
 docker exec -it db mongo
 ```
 
+You may understand this command as: "Hey, `docker`, please `exec`ute  the `mongo` command in the container named `db`, and do it as an ineteractive `-it` command, so I can attach my STDIN and STDOUT to it".
+
 Now you're running the `mongo` command in the `db` container. Toy around and then CTRL+c to quit.
 
 If you now do `docker ps` you'll notice the `db` container is still running. It didn't stop because the main process, the `mongo` database process (with `pid 1`), is still running. The process you killed by quitting was just the mongo shell.
