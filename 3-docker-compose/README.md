@@ -10,7 +10,7 @@ docker-compose --version
 
 If that fails, [get `docker-compose` for you specific setup](https://docs.docker.com/compose/install/)
 
-For working with `docker-compose`, you will need a `docker-compose.yml` file. Check out the one under the `gvilarino/docker-testing` repo.
+For working with `docker-compose`, you will need a `docker-compose.yml` file. Check out the one under the [`gvilarino/docker-testing` repo](https://github.com/gvilarino/docker-testing).
 
 Make sure you aren't running any containers. The from the project root, do:
 
