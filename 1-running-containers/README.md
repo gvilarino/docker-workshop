@@ -38,7 +38,7 @@ Now let's connect to it from _another_ container.
 docker pull gvilarino/docker-testing
 ```
 
-This will get you a very simple `node.js` app that tries to connect to a mongo DB and informs if it succeeds. Once it downloads, just:
+This will get you a very simple `node.js` app that tries to connect to a mongo DB and informs if it succeeds (you may check out the code [here](https://github.com/gvilarino/docker-testing)). Once it downloads, just:
 
 ```
 docker run -d --name app gvilarino/docker-testing
