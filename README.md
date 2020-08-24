@@ -34,4 +34,4 @@ This workshop is written in English as it's intended for all audiences. However,
 
 ## Current translations
 
-* [Spanish](https://github.com/mgarciaisaia/docker-workshop) by @mgarciaisaia - Status 100% ✅
+* [Spanish](https://github.com/mgarciaisaia/docker-workshop) by [@mgarciaisaia](https://github.com/mgarciaisaia) - Status 100% ✅
