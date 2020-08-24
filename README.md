@@ -27,3 +27,11 @@ This license allows you to:
 
 for any purpose, even commercially.
 The licensor cannot revoke these freedoms as long as you follow the license terms.
+
+# Translations
+
+This workshop is written in English as it's intended for all audiences. However, as an introductory learning resource, it makes sense to find a lot of value in translated versions. Feel free to fork or clone, translate and publish your translated workshop!
+
+## Current translations
+
+* [Spanish](https://github.com/mgarciaisaia/docker-workshop) by @mgarciaisaia - Status 100% ✅
