@@ -8,11 +8,11 @@ First check if you have docker-compose installed (chances are that you have) by 
 docker-compose --version
 ```
 
-If that fails, [get `docker-compose` for you specific setup](https://docs.docker.com/compose/install/)
+If that fails, [get `docker-compose` for your specific setup](https://docs.docker.com/compose/install/)
 
 For working with `docker-compose`, you will need a `docker-compose.yml` file. Check out the one under the [`gvilarino/docker-testing` repo](https://github.com/gvilarino/docker-testing).
 
-Make sure you aren't running any containers. The from the project root, do:
+Make sure you aren't running any containers. Then from the project root, do:
 
 ```
 docker-compose up -d
@@ -26,9 +26,9 @@ What just happened was that docker created all containers needed for the whole s
 docker-compose ps
 ```
 
-You can see a simpler variation of `docker ps`, based on the items described in the `docker-compose.yml`. Each of these items are called _services_
+You can see a simpler variation of `docker ps`, based on the items described in the `docker-compose.yml`. Each of these items is called _services_
 
-Compare it to `docker ps`. They look alike, right? The difference is that containers names are generated as instances of the service, but the service itself is a compose-related concept.
+Compare it to `docker ps`. They look alike, right? The difference is that container names are generated as instances of the service, but the service itself is a compose-related concept.
 
 Browse `localhost:3000` and you'll see a familiar page.
 
@@ -48,7 +48,7 @@ Browse to `localhost:3000`. You'll see nothing changed... That's because you nee
 docker-compose up -d
 ```
 
-You'll see the `app` service gets re-created and if you once again browse to `localhost:3000` you'll se the error message.
+You'll see the `app` service gets re-created and if you once again browse to `localhost:3000` you'll see the error message.
 
 ## `docker-compose` as a developer's tool
 
@@ -72,7 +72,7 @@ You'll see some familiar output. After it's finished, do:
 docker images
 ```
 
-See how an image with a generated name is created. You can use this image as any other and run a container with `docker run`, but for now let's:
+See how an image with a generated name is created. You can use this image as any other and run a container with `docker run`, but for now, let's:
 
 ```
 docker-compose up -d
@@ -92,7 +92,7 @@ volumes:
   - /usr/src/node_modules
 ```
 
-That's how you mount the source files into the container. We specifically exclude the `node_modules` path because we don't want to ever overwrite them even if theres a `node_modules` directory in the host machine.
+That's how you mount the source files into the container. We specifically exclude the `node_modules` path because we don't want to ever overwrite them even if there's a `node_modules` directory in the host machine.
 
 Now change something in `index.js` and `docker-compose up -d`. You'll notice how the service container gets recreated with the new source without having to re-build the underlying image.
 
