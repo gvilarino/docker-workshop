@@ -20,7 +20,7 @@ Each instruction (`FROM`, `RUN`, etc.) in the `Dockerfile` generates a single, i
 
 ## Understanding layers and leveraging the cache
 
-Notice that if you run the same command again, it will take no time at all. This is because docker caches each layer and doesn't re-build them if the build context and layer creation command didn't change since the last build.
+Notice that if you run the same command again, it will take no time at all. This is because Docker caches each layer and doesn't rebuild them if the build context and layer creation command didn't change since the last build.
 
 Now change the `FROM node:argon` line to `FROM node:6` so you try how it works with the latest `node.js` version and build it again
 
