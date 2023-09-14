@@ -65,7 +65,7 @@ If you want to revert to talking to your local daemon either open a new terminal
 
 ### Get swarmin'
 
-Let's get this swarm started. Grab a hold of the manager node host IP. In `play-with-docker` you'll see it in the node's terminal prompt; if running locally with `docker-machine` it's usually `192.168.99.100`
+Let's get this swarm started. Grab a hold of the manager node host IP. In `play-with-docker` you'll see it in node's terminal prompt; if running locally with `docker-machine` it's usually `192.168.99.100`
 
 ```
 docker swarm init --advertise-addr <manager node's ip>
