@@ -2,7 +2,7 @@
 
 ## Containers
 
-The most fundamental part of `Docker` are *containers*. There's a lot to say about them, but let's just run one:
+The most fundamental part of `Docker` is *containers*. There's a lot to say about them, but let's just run one:
 
 ```
 docker run hello-world
@@ -54,13 +54,13 @@ After toying around just `exit`. Let's give it another look:
 docker ps -a
 ```
 
-So the way containers work is that there is one single main process that gets assigned `pid 1`, which runs as the containers starts, and as soon as that process exits, the container is stopped, even if there were other processes running inside of it.
+So the way containers work is that there is one single main process that gets assigned `PID 1`, which runs as the container starts, and as soon as that process exits, the container is stopped, even if other processes were running inside of it.
 
 You may also have noticed that the first time you ran `docker run ubuntu:18.04` it took a while, but the second time it was immediate. What really happened is that docker tried to run a container based on the `ubuntu:18.04` image, and since it didn't have it locally, it pulled it from the public repository. Which brings us to:
 
 ## Images
 
-_Images_ are the templates docker uses to create containers from. If you're familiar with [Object Oriented Programming](https://en.wikipedia.org/wiki/Object-oriented_programming) you may (sort of) think of images as _classes_ and containers as _instances_.
+_Images_ are the templates docker uses to create containers from. If you're familiar with [Object-Oriented Programming](https://en.wikipedia.org/wiki/Object-oriented_programming) you may (sort of) think of images as _classes_ and containers as _instances_.
 
 Check which images you have in your local repository by doing:
 
